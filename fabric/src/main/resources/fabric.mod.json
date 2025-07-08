@@ -16,15 +16,11 @@
     "environment": "*",
     "entrypoints": {
         "main": [
-            "com.nemonotfound.examplemod.FabricExampleMod"
-        ],
-        "fabric-datagen": [
-            "com.nemonotfound.examplemod.DataGenerator"
+            "com.devnemo.nemos.mending.FabricNemosMending"
         ]
     },
     "mixins": [
-        "${mod_id}.mixins.json",
-        "${mod_id}.fabric.mixins.json"
+        "${mod_id}.mixins.json"
     ],
     "depends": {
         "fabricloader": ">=${fabric_loader_version}",

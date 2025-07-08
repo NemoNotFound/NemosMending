@@ -1,14 +1,15 @@
-![Mod](https://github.com/NemoNotFound/NemoNotFound/blob/master/resources/minecraft_projects/titles/png/mod.png?raw=true)
+![Nemo's Mending](https://github.com/NemoNotFound/NemoNotFound/blob/master/resources/minecraft_projects/titles/png/mod.png?raw=true)
 <br><br>
 
 # Description
-...
+Repair not only your mending tools in your equipment slot, but every mending tool in your inventory! <br>
+Big thanks to Jared for helping me with making my mod compatible with [Clumps](https://www.curseforge.com/minecraft/mc-mods/clumps)!    
 
-For more information and to see how to configure the components check the [wiki](https://github.com/NemoNotFound/MOD/wiki).
+For more information and to see how to configure the components check the [wiki](https://wiki.devnemo.com/projects/minecraft-mods/nemos-mending/general).
 
 # Downloads
-- [CurseForge](https://curseforge.com/minecraft/mc-mods/MOD)
-- [Modrinth](https://modrinth.com/mod/MOD)
+- [CurseForge](https://curseforge.com/minecraft/mc-mods/nemos-mending)
+- [Modrinth](https://modrinth.com/mod/nemos-mending)
 <br><br>
 
 # Join my Discord!
@@ -17,7 +18,7 @@ For more information and to see how to configure the components check the [wiki]
 
 # Support Me
 I love to create mods for Minecraft and wish to live off it one day, so I hope you like what I do. <br>
-Either way feel free to give me your feedback and suggestions, either on my Discord or the [discussions](https://github.com/NemoNotFound/MOD/discussions/) :)
+Either way feel free to give me your feedback and suggestions, either on my Discord or the [discussions](https://github.com/NemoNotFound/NemosMending/discussions/) :)
 <br><br>
 
 [![ko-fi donation](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/nemonotfound)

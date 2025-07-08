@@ -10,7 +10,6 @@ base {
 
 mixin {
     config("${mod_id}.mixins.json")
-    config("${mod_id}.forge.mixins.json")
 }
 
 tasks.named("assemble").configure {
@@ -88,6 +87,18 @@ repositories {
         }
         filter { includeModule("org.lwjgl", "lwjgl-freetype") }
     }
+    exclusiveContent {
+        forRepository {
+            maven {
+                name = "Modrinth"
+                url = "https://api.modrinth.com/maven"
+            }
+        }
+        forRepositories(fg.repository)
+        filter {
+            includeGroup "maven.modrinth"
+        }
+    }
 }
 
 dependencies {
@@ -101,6 +112,7 @@ dependencies {
     implementation(jarJar("io.github.llamalad7:mixinextras-forge:0.4.1")) {
         jarJar.ranged(it, "[0.4.1,)")
     }
+    compileOnly fg.deobf("maven.modrinth:clumps:${clumps_version}-forge")
 }
 
 publishing {

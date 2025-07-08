@@ -42,4 +42,22 @@ neoForge {
     }
 }
 
+repositories {
+    exclusiveContent {
+        forRepository {
+            maven {
+                name = "Modrinth"
+                url = "https://api.modrinth.com/maven"
+            }
+        }
+        filter {
+            includeGroup "maven.modrinth"
+        }
+    }
+}
+
+dependencies {
+    implementation("maven.modrinth:clumps:${clumps_version}-neoforge")
+}
+
 sourceSets.main.resources { srcDir project.project(':common').file('src/generated/resources/').getAbsolutePath() }
