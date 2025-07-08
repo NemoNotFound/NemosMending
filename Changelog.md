@@ -1,5 +1,4 @@
-# Changelog v1.0
-
-## Additions
+# Changelog - v1.1.1
 
 ## Changes
+- Updated to Minecraft 1.21.7
