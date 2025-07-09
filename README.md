@@ -1,4 +1,4 @@
-![Nemo's Mending](https://github.com/NemoNotFound/NemoNotFound/blob/master/resources/minecraft_projects/titles/png/mod.png?raw=true)
+![Nemo's Mending](https://github.com/NemoNotFound/NemoNotFound/blob/master/resources/minecraft_projects/titles/png/nemos_mending.png?raw=true)
 <br><br>
 
 # Description
