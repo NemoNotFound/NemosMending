@@ -1,4 +1,4 @@
-# Changelog - v1.1.1
+# Changelog - v1.1.2
 
 ## Changes
-- Updated to Minecraft 1.21.7
+- Updated icon
