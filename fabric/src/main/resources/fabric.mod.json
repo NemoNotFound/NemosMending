@@ -16,7 +16,7 @@
     "environment": "*",
     "entrypoints": {
         "main": [
-            "com.devnemo.nemos.mending.FabricNemosMending"
+            "com.nemonotfound.nemos.mending.FabricNemosMending"
         ]
     },
     "mixins": [
